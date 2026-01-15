@@ -134,22 +134,36 @@ Claude will:
 - Match your voice from examples
 - Structure for readability
 
-### Step 5: Repurpose for Each Platform
+### Step 5: Automatic Platform Repurposing
 
-**LinkedIn Post:**
+**The `/write` command automatically generates all platform versions!**
+
+When you run `/write`, Claude creates:
+- Main article (`drafts/article-[topic]-[date].md`)
+- LinkedIn post (`drafts/linkedin-[topic]-[date].md`)
+- Newsletter version (`drafts/newsletter-[topic]-[date].md`)
+- Social media posts (`drafts/social-[topic]-[date].md`)
+
+All files are saved to the `drafts/` folder and ready for review.
+
+### Step 6: Publish Your Content
+
 ```
-Use the linkedin-repurposer agent on this article: [paste article]
+/publish [topic-slug]
 ```
 
-**Newsletter Section:**
+This will:
+- Move all platform versions to `published/` folder
+- Archive the research (prevents duplicate research later)
+- Add publication metadata
+- Update the archive index
+
+**Example:**
 ```
-Use the newsletter-repurposer agent on this article: [paste article]
+/publish remote-work-productivity
 ```
 
-**Social Media + Podcast Q&A:**
-```
-Use the conversational-repurposer agent for Twitter posts: [paste article]
-```
+**Need to make changes?** Use `/unpublish [topic-slug]` to move everything back to drafts.
 
 ## Complete Example Walkthrough
 
@@ -264,15 +278,23 @@ Game changer.
 ```
 writing-workspace/
 ├── README.md                   # This guide
-├── CLAUDE.md                  # Instructions for Claude
+├── CLAUDE.md                   # Instructions for Claude
+├── WORKFLOW.md                 # Complete workflow documentation
+├── PUBLISH-GUIDE.md            # Publishing and archiving guide
 ├── .claude/
-│   ├── agents/               # Platform specialists
-│   └── commands/            # Research & writing workflows
+│   ├── agents/                 # Platform specialists
+│   ├── commands/               # Research & writing workflows
+│   └── skills/                 # Publish/unpublish scripts
 ├── context/
-│   ├── writing-examples.md  # Your voice samples
-│   └── research-sources.md  # Priority sources
-├── rawnotes/                 # Unprocessed ideas & voice notes
-└── drafts/                  # Your work in progress
+│   ├── writing-examples.md     # Your voice samples
+│   └── research-sources.md     # Priority sources
+├── rawnotes/                   # Unprocessed ideas & voice notes
+├── research/
+│   ├── research-brief-*.md     # Active research briefs
+│   └── archive/                # Published research (prevents duplication)
+│       └── INDEX.md            # Published topics tracker
+├── drafts/                     # Work in progress
+└── published/                  # Published content
 ```
 
 ## Troubleshooting
@@ -296,6 +318,8 @@ Once you're comfortable with the basic workflow:
 - Try combining multiple articles into series
 - Use Claude to analyze what content performs best
 - Adapt the agents for other platforms you use
+
+**Pro tip:** Check out [WORKFLOW.md](WORKFLOW.md) for the complete content lifecycle and [PUBLISH-GUIDE.md](PUBLISH-GUIDE.md) for details on managing published content.
 
 Happy writing! 🚀
 

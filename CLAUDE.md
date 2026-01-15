@@ -12,9 +12,13 @@ This workspace transforms ideas into multi-format content:
 
 ## Workflow Commands
 - `/extract-themes` - Analyze raw notes in /rawnotes to identify patterns and content opportunities
-- `/research [topic]` - Develop and refine ideas from themes or new topics
+- `/research [topic]` - Develop and refine ideas from themes or new topics (checks archive to avoid duplication)
 - `/write` - Create comprehensive article
 - Auto-generates: LinkedIn, Newsletter, Twitter/X, Podcast Q&A
+- `/publish [topic-slug]` - Move drafts to published folder and archive research
+- `/unpublish [topic-slug]` - Reverse publication if needed
+
+See [WORKFLOW.md](WORKFLOW.md) for complete documentation.
 
 ## Context Architecture
 Always reference these for consistency:

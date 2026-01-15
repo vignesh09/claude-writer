@@ -37,6 +37,19 @@ After completing the article, automatically save the draft to:
 - **File Format**: Markdown with title, headers, and formatted content
 - **Naming Convention**: Use lowercase, hyphenated topic slug and current date
 
+### Metadata Header
+Include at the top of each article (after the title):
+```markdown
+---
+status: draft
+created_date: [YYYY-MM-DD]
+topic: [Topic Name]
+platforms: [article, linkedin, newsletter, social]
+published: false
+research_source: research-brief-[topic-slug]-[YYYY-MM-DD].md
+---
+```
+
 Example: `drafts/article-remote-work-productivity-2024-01-15.md`
 
 This ensures all article drafts are systematically organized and available for future reference, editing, or repurposing.
