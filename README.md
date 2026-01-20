@@ -289,10 +289,14 @@ writing-workspace/
 │   ├── writing-examples.md     # Your voice samples
 │   └── research-sources.md     # Priority sources
 ├── rawnotes/                   # Unprocessed ideas & voice notes
+│   └── archive/                # Processed raw notes
 ├── research/
 │   ├── research-brief-*.md     # Active research briefs
+│   ├── theme-analysis-*.md     # Active theme analyses
 │   └── archive/                # Published research (prevents duplication)
-│       └── INDEX.md            # Published topics tracker
+│       ├── INDEX.md            # Published topics tracker
+│       ├── research-brief-*.md # Archived research
+│       └── theme-analysis-*.md # Archived theme analyses
 ├── drafts/                     # Work in progress
 └── published/                  # Published content
 ```
