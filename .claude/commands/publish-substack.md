@@ -62,10 +62,19 @@ The script will:
 - Inject the body content paragraph by paragraph with formatting
 - Trigger autosave and wait for "Saved" confirmation
 
-### Step 4: Report Result
-- Show the Substack draft URL
-- Confirm content was saved successfully
-- Note: content is saved as DRAFT only — you still publish manually from Substack
+### Step 4: Run the Publish Workflow
+After the Substack script confirms a successful save, immediately run the `/publish` workflow for the same topic slug:
+- Extract the topic slug from the selected filename (e.g. `newsletter-ai-hyperachievers-burnout-no-limits-2026-02-27.md` → slug is `ai-hyperachievers-burnout-no-limits`)
+- Move all draft files for that slug to `published/`
+- Archive the research brief to `research/archive/`
+- Update `research/archive/INDEX.md`
+- Add publication metadata (`status: published`, `published_date: [today]`) to all moved files
+
+### Step 5: Report Result
+- Confirm Substack draft was saved
+- Confirm all draft files moved to `published/`
+- Confirm research archived
+- Remind user the Substack post is still a DRAFT — publish it manually from Substack when ready
 
 ---
 
@@ -122,6 +131,17 @@ Available newsletter drafts:
 ✓ Content injected (39 paragraphs with formatting)
 ✓ Draft saved to Substack!
 
-Open your Substack drafts to review and publish:
+Publishing locally...
+✓ Moved 4 drafts → published/
+✓ Archived research brief → research/archive/
+✓ Updated research/archive/INDEX.md
+
+══════════════════════════════════════════════
+All done!
+- Substack: draft saved (review + send manually)
+- Local: files moved to published/, research archived
+══════════════════════════════════════════════
+
+Open your Substack drafts to review and send:
 https://vigneshrajendran581748.substack.com/publish/drafts
 ```
