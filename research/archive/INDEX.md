@@ -10,6 +10,15 @@ This file is automatically updated when you run `/publish [topic]`.
 
 <!-- New entries are added below in reverse chronological order -->
 
+### 2026-03-17 - The World Is on Fire. Here's What History Says Grows in the Ashes.
+
+- **Research**: `research-brief-war-volatility-silver-lining-opportunities-2026-03-17.md`
+- **Article**: `article-war-volatility-silver-lining-opportunities-2026-03-17.md`
+- **LinkedIn**: `linkedin-war-volatility-silver-lining-opportunities-2026-03-17.md`
+- **Newsletter**: `newsletter-war-volatility-silver-lining-opportunities-2026-03-17.md`
+- **Social**: `social-war-volatility-silver-lining-opportunities-2026-03-17.md`
+- **Key Insight**: Every major conflict in the 20th century created unexpected economic winners—WWII created the US middle class, post-Cold War Russia produced oligarchs, post-Gulf War oil boom transformed Gulf states. The pattern holds: defense tech, energy independence, domestic manufacturing, and supply chain resilience all surge. The counterintuitive lesson is that volatility doesn't destroy opportunity—it relocates it. The question isn't whether opportunities exist, but whether you're positioned to see and act on them.
+
 ### 2026-02-04 - The Certainty Tax: Why the Best Strategy Is to Stop Predicting
 
 - **Research**: `research-brief-uncertainty-inequality-future-trends-2026-02-03.md`
