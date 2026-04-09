@@ -1,11 +1,12 @@
 # LinkedIn Post: The Dark GPU Problem
 
 ---
-status: draft
+status: published
 created_date: 2026-02-23
+published_date: 2026-03-25
 platform: linkedin
 source_article: article-ai-infrastructure-productivity-gap-2026-02-23.md
-published: false
+published: true
 ---
 
 ## LINKEDIN POST:

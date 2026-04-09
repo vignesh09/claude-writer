@@ -1,11 +1,12 @@
 # Social Media & Podcast Content: The Dark GPU Problem
 
 ---
-status: draft
+status: published
 created_date: 2026-02-23
+published_date: 2026-03-25
 platforms: [twitter, podcast]
 source_article: article-ai-infrastructure-productivity-gap-2026-02-23.md
-published: false
+published: true
 ---
 
 ## Twitter/X Thread

@@ -10,6 +10,24 @@ This file is automatically updated when you run `/publish [topic]`.
 
 <!-- New entries are added below in reverse chronological order -->
 
+### 2026-02-27 - The Friction That Was Protecting You: Why AI Is Burning Out the People Who Embrace It Most
+
+- **Research**: `research-brief-ai-achiever-burnout-no-limits-2026-02-27.md`
+- **Article**: `article-ai-hyperachievers-burnout-no-limits-2026-02-27.md`
+- **LinkedIn**: `linkedin-ai-hyperachievers-burnout-no-limits-2026-02-27.md`
+- **Newsletter**: `newsletter-ai-hyperachievers-burnout-no-limits-2026-02-27.md`
+- **Social**: `social-ai-hyperachievers-burnout-no-limits-2026-02-27.md`
+- **Key Insight**: The first people burning out from AI aren't reluctant adopters — they're the enthusiasts. 88% of highest-productivity AI users report burnout (Upwork 2024). The Jevons Paradox applied to human attention: efficiency gains don't reduce workload, they expand it. AI removed the "protective friction" that naturally forced rest and recalibration for hyper-achievers. The distinction between more capacity vs. more time is the core: capacity has no ceiling, time does. UC Berkeley research confirmed work intensification was voluntary — ambitious people fill every gap AI opens.
+
+### 2026-02-23 - The Dark GPU Problem: Why $600 Billion in AI Infrastructure Sits Mostly Unused
+
+- **Research**: `research-brief-ai-infrastructure-productivity-gap-2026-02-23.md`
+- **Article**: `article-ai-infrastructure-productivity-gap-2026-02-23.md`
+- **LinkedIn**: `linkedin-ai-infrastructure-productivity-gap-2026-02-23.md`
+- **Newsletter**: `newsletter-ai-infrastructure-productivity-gap-2026-02-23.md`
+- **Social**: `social-ai-infrastructure-productivity-gap-2026-02-23.md`
+- **Key Insight**: The real AI bottleneck isn't GPUs — it's organizational readiness. Only 7% of companies achieve >85% GPU utilization at peak. 95% of enterprise AI pilots deliver zero measurable ROI. Historical precedents: electrification took 40 years, computerization 15 years, fiber optics a decade — all due to the gap between infrastructure installation and organizational redesign. Harvard Business Review: 70% of AI challenges are people and processes, yet 90% of spending goes to infrastructure. The "dark fiber" → "dark GPU" parallel: short-term waste, long-term necessity. The market bets on 5 years; history says 25.
+
 ### 2026-03-17 - The World Is on Fire. Here's What History Says Grows in the Ashes.
 
 - **Research**: `research-brief-war-volatility-silver-lining-opportunities-2026-03-17.md`

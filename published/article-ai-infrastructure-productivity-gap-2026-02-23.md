@@ -1,11 +1,12 @@
 # The Dark GPU Problem: Why $600 Billion in AI Infrastructure Sits Mostly Unused
 
 ---
-status: draft
+status: published
 created_date: 2026-02-23
+published_date: 2026-03-25
 topic: AI Infrastructure vs. Productivity Paradox
 platforms: [article, linkedin, newsletter, social]
-published: false
+published: true
 research_source: research-brief-ai-infrastructure-productivity-gap-2026-02-23.md
 ---
 

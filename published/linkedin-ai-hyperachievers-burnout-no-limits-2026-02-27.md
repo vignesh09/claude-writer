@@ -1,12 +1,13 @@
 # LinkedIn Content: AI Hyper-Achievers Burnout
 
 ---
-status: draft
+status: published
 created_date: 2026-02-27
+published_date: 2026-03-25
 topic: AI Hyper-Achievers Burnout
 platform: linkedin
 source_article: article-ai-hyperachievers-burnout-no-limits-2026-02-27.md
-published: false
+published: true
 ---
 
 ## LINKEDIN POST (Short-Form):

@@ -1,11 +1,12 @@
 # The Friction That Was Protecting You: Why AI Is Burning Out the People Who Embrace It Most
 
 ---
-status: draft
+status: published
 created_date: 2026-02-27
+published_date: 2026-03-25
 topic: AI Hyper-Achievers Burnout — No Limits
 platforms: [article, linkedin, newsletter, social]
-published: false
+published: true
 research_source: research-brief-ai-achiever-burnout-no-limits-2026-02-27.md
 ---
 

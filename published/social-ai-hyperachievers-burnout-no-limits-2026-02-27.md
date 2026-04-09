@@ -1,12 +1,13 @@
 # Social Media & Podcast Content: The Friction That Was Protecting You
 
 ---
-status: draft
+status: published
 created_date: 2026-02-27
+published_date: 2026-03-25
 topic: AI Hyper-Achievers Burnout
 platform: social + podcast
 source_article: article-ai-hyperachievers-burnout-no-limits-2026-02-27.md
-published: false
+published: true
 ---
 
 ## Twitter/X Thread
